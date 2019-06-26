@@ -1071,7 +1071,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #supporters .section-header {
-    margin-bottom: 0px;
+    margin-bottom: 30px;
 }
 
 #supporters .supporters-wrap {
@@ -1477,7 +1477,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0;
 }
 
-#footer .footer-top .footer-links ul i {
+#footer .footer-top .footer-links li > i {
   padding-right: 5px;
   color: #d85aa2;
   font-size: 18px;
