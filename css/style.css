@@ -1226,10 +1226,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: none;
   border-radius: 5px;
   transition: all  0.3s ease-in-out;
+}
+
+#buy-tickets .card.active {
   box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
 }
 
-#buy-tickets .card:hover {
+#buy-tickets .card.active:hover {
   box-shadow: 0 10px 35px 0 rgba(6, 12, 34, 0.2);
 }
 
@@ -1247,6 +1250,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 #buy-tickets .card .card-price {
   font-size: 48px;
   margin: 0;
+}
+
+#buy-tickets .card:not(.active) .card-price {
+  opacity: 0.7;
+  color: #6c757d;
+  text-decoration: line-through;
 }
 
 #buy-tickets .card ul li {
