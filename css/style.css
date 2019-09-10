@@ -1122,7 +1122,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   list-style: none;
 }
 
-#faq #faq-list li {
+#faq #faq-list > li {
   border-bottom: 1px solid #D75BA1;
 }
 
